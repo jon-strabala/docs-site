@@ -79,10 +79,13 @@ content:
   - url: https://git@github.com/couchbase/docs-ngdm
   # Tutorial repositories
   - url: https://github.com/couchbase/tutorials
-    branches: azure-prereq
+    branches: [azure-prereq]
   - url: https://github.com/couchbase/developer-content
   - url: https://github.com/couchbaselabs/tutorial-template
   - url: https://github.com/couchbaselabs/mobile-travel-sample
+    start_path: content
+  - url: https://github.com/amarantha-k/mobile-travel-sample
+    branches: [fix-tabs]
     start_path: content
   - url: https://github.com/couchbaselabs/hotel-finder-react-native
   - url: https://github.com/couchbaselabs/hotel-lister-cordova
